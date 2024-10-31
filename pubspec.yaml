@@ -1,0 +1,131 @@
+name: realorfake
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0
+  http: ^1.2.2
+  cached_network_image: ^3.4.1
+  dots_indicator: ^3.0.0
+  carousel_slider: ^5.0.0
+  fluttertoast: ^8.2.8
+  dotted_border: ^2.1.0
+  package_info_plus: ^8.0.2
+  device_info_plus: ^10.1.2
+  connectivity_plus: ^6.0.5
+  flutter_timezone: ^3.0.0
+  photo_view: ^0.15.0
+  lottie: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/appIconNew.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/gif/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Intel
+      fonts:
+        - asset: assets/fonts/intel/Inter-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/intel/Inter-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/intel/Inter-Light.ttf
+          weight: 300          
+        - asset: assets/fonts/intel/Inter-Regular.ttf
+          weight: 400          
+        - asset: assets/fonts/intel/Inter-Medium.ttf
+          weight: 500          
+        - asset: assets/fonts/intel/Inter-SemiBold.ttf
+          weight: 600          
+        - asset: assets/fonts/intel/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/intel/Inter-ExtraBold.ttf
+          weight: 800          
+        - asset: assets/fonts/intel/Inter-Black.ttf
+          weight: 900    
+    - family: WorkSans
+      fonts:
+        - asset: assets/fonts/worksans/WorkSans-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/worksans/WorkSans-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/worksans/WorkSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/worksans/WorkSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/worksans/WorkSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/worksans/WorkSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/worksans/WorkSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/worksans/WorkSans-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/worksans/WorkSans-Black.ttf
+          weight: 900    
+    - family: Sora
+      fonts:
+        - asset: assets/fonts/sora/Sora-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/sora/Sora-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/sora/Sora-Light.ttf
+          weight: 300
+        - asset: assets/fonts/sora/Sora-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/sora/Sora-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/sora/Sora-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/sora/Sora-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/sora/Sora-ExtraBold.ttf
+          weight: 800
